@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Higiene"
+    android:orientation="horizontal"
+    android:background="@drawable/valores_fomdo"
+   >
+    <ScrollView
+        android:layout_marginLeft="10dp"
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/iv_bano"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bano" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_cambio"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cambio" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_dientes"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/dientes" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_manos"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.05"
+            android:src="@drawable/manos" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_peinar"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/peinar" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_unas"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/unas" />
+    </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:id="@+id/bt_volver_jugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Volver a Jugar"
+        android:background="@color/android_darkorange"/>
+
+    <ScrollView
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:scrollbars="vertical"
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/ll_targert_cambio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+
+            <Button
+                android:id="@+id/bt_targert_cambio"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/cambiate_de_ropa"
+                android:background="@color/darkPrimaryColor"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/ll_targert_unas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+
+            <Button
+                android:id="@+id/bt_targert_unas"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/cortate_las_u_as"
+                android:background="@color/colorAccent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_targert_bano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+
+            <Button
+                android:id="@+id/bt_targert_baño"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/ba_ate"
+                android:background="#FE36"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/ll_targert_dientes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+
+            <Button
+                android:id="@+id/bt_targert_dientes"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/lavate_los_dientes"
+                android:background="@color/android_darkgreen"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/ll_targert_peinar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+
+            <Button
+                android:id="@+id/bt_targert_peinar"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/peinate"
+                android:background="@color/android_red"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/ll_targert_manos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+
+            <Button
+                android:id="@+id/bt_targert_manos"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/lavate_las_manos"
+                android:background="@color/android_red"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

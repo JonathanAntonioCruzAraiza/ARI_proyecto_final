@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".valores.Valores"
+    android:orientation="horizontal"
+    android:background="@drawable/valores_fomdo"
+   >
+    <ScrollView
+        android:layout_marginLeft="10dp"
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/iv_respeto"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/respeto" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_generosidad"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/generosidad" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_libertad"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/libertad" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_responsabilidad"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.05"
+            android:src="@drawable/responsabilidad" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_dialogo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/dialogo" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_honestidad"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/honestidad" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_justicia"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/justicia" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_esfuerzo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/esfuerzo" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_humildad"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/humildad" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/iv_amistad"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/amistad" />
+    </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:id="@+id/bt_volver_jugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/volver_a_jugar"
+        android:background="@color/android_darkorange"/>
+
+
+
+    <ScrollView
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:scrollbars="vertical"
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+        android:id="@+id/ll_targert_amistad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="1dp">
+        <Button
+            android:id="@+id/bt_target_amistad"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:text="Amistad"
+            android:background="#FE3"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/ll_targert_esfuerzo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+            <Button
+                android:id="@+id/bt_target_esfuerzo"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/esfuerzo"
+                android:background="@color/accent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/ll_targert_humildad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+            <Button
+                android:id="@+id/bt_target_humildad"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/humildad"
+                android:background="@color/android_darkgreen"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/ll_targert_honestidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+            <Button
+                android:id="@+id/bt_target_honestidad"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/honestidad"
+                android:background="@color/android_darkorange"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/ll_targert_justicia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+            <Button
+                android:id="@+id/bt_target_justicia"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/justicia"
+                android:background="@color/android_red"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/ll_targert_responsabilidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+            <Button
+                android:id="@+id/bt_target_responsabilidad"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/responsabilidad"
+                android:background="@color/android_purple"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/ll_targert_dialogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+            <Button
+                android:id="@+id/bt_target_dialogo"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/dialogo"
+                android:background="@color/android_pink"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/ll_targert_generosidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+            <Button
+                android:id="@+id/bt_target_generosidad"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/generosidad"
+                android:background="@color/common_signin_btn_default_background"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/ll_targert_libertad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+            <Button
+                android:id="@+id/bt_target_libertad"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/libertad"
+                android:background="@color/android_green"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/ll_targert_respeto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="1dp">
+            <Button
+                android:id="@+id/bt_target_respeto"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:text="@string/respeto"
+                android:background="@color/primary_light"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.menu">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_ari"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".login.Login"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".registro.Registro" />
+        <activity
+            android:name=".escriberNombre.Nombre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".operaciones.Operaciones"
+            android:label="operaciones"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.operaciones.Operaciones" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".valores.Valores"
+            android:label="Valores"
+            android:parentActivityName=".MenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.valores.Valores" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".vocales.VocalesActivity"
+            android:label="Vocales"
+            android:parentActivityName=".MenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.vocales.VocalesActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".abecedario.AbecedarioActivity"
+            android:label="Abecedario"
+            android:parentActivityName=".MenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.abecedario.AbecedarioActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".semana.SemanaActivity"
+            android:label="Dias de la semana"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.semana.SemanaActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".colores.ColorssActivity"
+            android:label="Colores"
+            android:parentActivityName=".MenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.colores.ColorssActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".figurasgeometricas.FigurasGeometricasActivity"
+            android:label="Figuras geometricas"
+            android:parentActivityName=".MenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.figurasgeometricas.FigurasGeometricasActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".meses.ActividadInicioMeses"
+            android:label="Meses"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.meses.ActividadInicioMeses" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".meses.ActividadSegundoMeses"
+            android:label=""
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.meses.ActividadSegundoMeses" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".figurasgeometricas.Jugar"
+            android:label="Juego figuras"
+            android:parentActivityName=".MenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.figurasgeometricas.FigurasGeometricasActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".estaciones.Memorama"
+            android:label="Memorama Estaciones"
+            android:parentActivityName=".MenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".estaciones.MainActivityEstaciones" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.estaciones.Memorama" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".estaciones.MainActivityEstaciones"
+            android:label="Estaciones del año"
+            android:parentActivityName=".MenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MainActivityEstaciones" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gallery.MenuGallery"
+            android:label="Galeria"
+            android:parentActivityName=".MenuActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.gallery.MenuGallery" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gallery.BaseAnimals"
+            android:label="Animales"
+            android:parentActivityName=".gallery.MenuGallery">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".gallery.MenuGallery" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.gallery.BaseAnimals" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gallery.BaseFruits"
+            android:label="Frutas"
+            android:parentActivityName=".gallery.MenuGallery">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".gallery.MenuGallery" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.gallery.BaseFruits" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gallery.BaseLetters"
+            android:label="Abecedario"
+            android:parentActivityName=".gallery.MenuGallery">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".gallery.MenuGallery" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.gallery.BaseLetters" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gallery.BaseValores"
+            android:label="Valores"
+            android:parentActivityName=".gallery.MenuGallery">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".gallery.MenuGallery" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.gallery.BaseValores" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".gallery.BaseColores"
+            android:label="Colores"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".gallery.MenuGallery" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.gallery.BaseColores" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    <activity android:name=".SplashScrim" android:theme="@style/AppTheme.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+        <activity
+            android:name=".crecimiento.Crecimiento"
+            android:label="Crecimiento "
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.crecimiento.Crecimiento" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".habitoshigiene.Higiene"
+            android:label="Habitos de higien"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.habitoshigiene.Higiene" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+        <activity android:name="mx.edu.utng.menu.autocompletarpalabras.MainActivityPalabras"
+            android:label="Complatar Palabras"
+            android:screenOrientation="portrait">
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity android:name="mx.edu.utng.menu.autocompletarpalabras.SeconActivityPalabras"
+            android:label="Complatar Palabras"
+            android:screenOrientation="portrait">
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity android:name="mx.edu.utng.menu.autocompletarpalabras.TercerActivityPalabras"
+            android:label="Complatar Palabras"
+            android:screenOrientation="portrait">
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+
+        <activity android:name="mx.edu.utng.menu.autocompletarpalabras.CuartaActivity"
+            android:label="Complatar Palabras"
+            android:screenOrientation="portrait">
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity android:name="mx.edu.utng.menu.autocompletarpalabras.QuintaActivity"
+            android:label="Complatar Palabras"
+            android:screenOrientation="portrait">
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity android:name="mx.edu.utng.menu.autocompletarpalabras.SextaActivity"
+            android:label="Complatar Palabras"
+            android:screenOrientation="portrait">
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity android:name="mx.edu.utng.menu.autocompletarpalabras.SeptimaActivity"
+            android:label="Complatar Palabras"
+            android:screenOrientation="portrait">
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity android:name="mx.edu.utng.menu.autocompletarpalabras.OptabaActivity"
+            android:label="Complatar Palabras"
+            android:screenOrientation="portrait">
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity android:name="mx.edu.utng.menu.autocompletarpalabras.NovenaActivity"
+            android:label="Complatar Palabras"
+            android:screenOrientation="portrait">
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity android:name="mx.edu.utng.menu.autocompletarpalabras.DecimoActivity"
+            android:label="Complatar Palabras"
+            android:screenOrientation="portrait">
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity android:name="mx.edu.utng.menu.autocompletarpalabras.FinEjercicio"
+            android:label="Complatar Palabras"
+            android:screenOrientation="portrait">
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity android:name="mx.edu.utng.menu.newrepro.MainActivityReproductor"
+            android:label="Complatar Palabras"
+            android:screenOrientation="portrait">
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity android:name=".creditos.MainActivityCreditos"
+            android:label="Creditos"
+            android:screenOrientation="portrait">
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+
+    </application>
+
+
+
+</manifest>

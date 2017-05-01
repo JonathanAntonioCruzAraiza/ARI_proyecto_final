@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo_dias_semana"
+    android:scrollbarThumbVertical="@drawable/mi_scroll"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5pt"
+        tools:context=".MenuActivity"
+        android:paddingRight="5pt"
+        android:paddingTop="5pt"
+        android:paddingBottom="10pt"
+        android:layout_margin="5pt">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20pt"></RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/diaz_de_la_semana"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/bt_lunes"
+                android:layout_height="match_parent"
+                android:background="@drawable/lunes" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20pt">
+
+            <Button
+                android:id="@+id/bt_martes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/martes"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20pt">
+            <Button
+                android:id="@+id/bt_miercoles"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/miercoles"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20pt">
+            <Button
+                android:id="@+id/bt_jueves"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/jueves"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20pt">
+            <Button
+                android:id="@+id/bt_viernes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/viernes"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20pt">
+            <Button
+                android:id="@+id/bt_sabado"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/sabado"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20pt">
+        <Button
+            android:id="@+id/bt_domingo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/domingo"/>
+
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20pt">
+            <Button
+                android:id="@+id/bt_todosDias"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/dias_semana"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

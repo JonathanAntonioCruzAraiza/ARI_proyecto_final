@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorFondo">#004b8cb7</color>
+
+    <color name="colorPrimary">#FF0099cc</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color1">#13ba37</color>
+    <color name="color2">#978ac6</color>
+    <color name="bg">#cccccc</color>
+    <color name="bg_img_podcast">#e6dcdc</color>
+    <color name="bg_quiz">#8f8888</color>
+    <color name="yellow">#d6b600</color>
+    <color name="pinkProfileHighlight">#ffaf337e</color>
+    <color name="pinkProfileCopy">#ff716a64</color>
+    <color name="blue">#00abea</color>
+    <color name="gray">#FF8c8c8c</color>
+    <color name="android_blue">#FF33b5e5</color>
+    <color name="android_darkblue">#FF0099cc</color>
+    <color name="android_green">#FF99cc00</color>
+    <color name="android_darkgreen">#FF669900</color>
+    <color name="android_red">#FFff4444</color>
+    <color name="android_darkred">#e93535</color>
+    <color name="android_yellow">#FFffd75a</color>
+    <color name="android_darkyellow">#FFffc40d</color>
+    <color name="android_orange">#FFffbb33</color>
+    <color name="android_darkorange">#FFff8800</color>
+    <color name="android_pink">#FFd9698c</color>
+    <color name="android_darkpink">#FFc3325f</color>
+    <color name="android_purple">#FFaa66cc</color>
+    <color name="android_darkpurple">#FF9933cc</color>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#03A9F4</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="darkPrimaryColor">#7B1FA2</color>
+    <color name="primaryColor">#9C27B0</color>
+    <color name="accentColor">#00BCD4</color>
+    <color name="backgroundColor">#212121</color>
+    <color name="background_footer">#90000000</color>
+
+
+
+    <color name="label1">#d42724</color>
+    <color name="label2">#9f28f4</color>
+    <color name="label3">#232222</color>
+    <color name="label4">#37e440</color>
+    <color name="label5">#511be7</color>
+
+    <color name="interfaz1">#80ef5350</color>
+    <color name="interfaz2">#35f06292</color>
+    <color name="interfaz3">#80ab47bc</color>
+    <color name="interfaz4">#7E57C2</color>
+    <color name="interfaz5">#8042a5f5</color>
+    <color name="interfaz6">#8066bb6a</color>
+    <color name="interfaz7">#8BC34A</color>
+
+    <color name="interfaz8">#8940ed</color>
+    <color name="interfaz9">#8043dc85</color>
+    <color name="interfaz10">#80b2ff59</color>
+    <color name="interfaz11">#800eca79</color>
+    <color name="interfaz12">#808e24df</color>
+    <color name="interfaz13">#7500e30f</color>
+    <color name="interfaz14">#8045c4f2</color>
+    <color name="interfaz15">#80c72fed</color>
+    <color name="interfaz16">#80f53aca</color>
+    <color name="interfaz17">#80595fff</color>
+    <color name="interfaz18">#80ff595c</color>
+
+
+
+
+
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="red" type="color">#FFFF4444</item>
+    <item name="darkblue" type="color">#FF0099CC</item>
+    <item name="darkpurple" type="color">#FF9933CC</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+    </integer-array>
+
+</resources>

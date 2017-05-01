@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaperimage"
+    tools:context="mx.edu.utng.menu.gallery.MenuGallery">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <FrameLayout
+                        android:layout_marginRight="4dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/iv_abecedario"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center|top"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/abc"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/nombre_coche"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:background="#50000000"
+                            android:maxLines="1"
+                            android:padding="16dp"
+                            android:text="Abecedario"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@android:color/white" />
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="30dp">
+
+                        <ImageView
+                            android:id="@+id/iv_frutas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/mosaico_frutas" />
+
+                        <TextView
+                            android:id="@+id/nombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:background="#50000000"
+                            android:maxLines="1"
+                            android:padding="16dp"
+                            android:text="Frutas"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@android:color/white" />
+
+                    </FrameLayout>
+                </TableRow>
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <FrameLayout
+                        android:layout_marginRight="4dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/iv_animals"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center|top"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/caballo"
+
+                            />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:background="#50000000"
+                            android:maxLines="1"
+                            android:padding="16dp"
+                            android:text="Animales"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@android:color/white" />
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="30dp">
+
+                        <ImageView
+                            android:id="@+id/iv_colors"
+                            android:layout_width="140dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center|top"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/color_azul"
+
+                            />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:background="#50000000"
+                            android:maxLines="1"
+                            android:padding="16dp"
+                            android:text="Colores"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@android:color/white" />
+
+                    </FrameLayout>
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <FrameLayout
+                        android:layout_marginRight="4dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/iv_valores"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center|top"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/respeto"
+
+                            />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:background="#50000000"
+                            android:maxLines="1"
+                            android:padding="16dp"
+                            android:text="@string/valores"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@android:color/white" />
+
+                    </FrameLayout>
+
+
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/operaciones_fondo"
+    >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorFondo">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageButton
+                android:id="@+id/carta1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorFondo"
+                android:src="@drawable/signo" />
+
+            <ImageButton
+                android:id="@+id/carta2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorFondo"
+                android:src="@drawable/signo" />
+
+            <ImageButton
+                android:id="@+id/carta3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorFondo"
+                android:src="@drawable/signo" />
+
+            <ImageButton
+                android:id="@+id/carta4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="4"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorFondo"
+                android:src="@drawable/signo" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageButton
+                android:id="@+id/carta5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorFondo"
+                android:src="@drawable/signo" />
+
+            <ImageButton
+                android:id="@+id/carta6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorFondo"
+                android:src="@drawable/signo" />
+
+            <ImageButton
+                android:id="@+id/carta7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorFondo"
+                android:src="@drawable/signo" />
+
+            <ImageButton
+                android:id="@+id/carta8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="4"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorFondo"
+                android:src="@drawable/signo" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageButton
+                android:id="@+id/carta9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorFondo"
+                android:src="@drawable/signo" />
+
+            <ImageButton
+                android:id="@+id/carta10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorFondo"
+                android:src="@drawable/signo" />
+
+            <ImageButton
+                android:id="@+id/carta11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorFondo"
+                android:src="@drawable/signo" />
+
+            <ImageButton
+                android:id="@+id/carta12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="4"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/colorFondo"
+                android:src="@drawable/signo" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/btnReiniciar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_span="0"
+                android:text="Reiniciar" />
+
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:layout_span="0"
+                android:text="Salir" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_span="3"
+                android:text="puntaje:" />
+
+            <TextView
+                android:id="@+id/txtPuntaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:text="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="fallas:" />
+
+            <TextView
+                android:id="@+id/txtFallas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:text="0" />
+
+        </TableRow>
+    </TableLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tercera"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/interfaz11"
+    tools:context="mx.edu.utng.www.autocompletarpalabras.MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="88dp">
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp">
+                <!--Actividad Papa-->
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Felicidades as finalizado con el ejercicio."
+                    android:textSize="15dp"
+                    android:fontFamily="serif"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/label3"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="131dp"
+                android:weightSum="1">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="162dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/feliz"
+                    android:layout_weight="0.88" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="88dp">
+
+                <Button
+                    android:onClick=""
+                    android:id="@+id/bt_inicio"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:text="Inicio"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:background="@color/interfaz4"
+                    android:textColor="@color/label3"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+<!--Esta vista va enlazada con el menu de inicio-->

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ARI</string>
+
+    <string name="adolescencia">Adolescencia</string>
+    <string name="ni_ez">Niñez</string>
+    <string name="infancia">Infancia</string>
+    <string name="adulto">Adulto</string>
+    <string name="homework">Homework</string>
+    <string name="homework1">HOMEWORK1</string>
+    <string name="homework3">HOMEWORK3</string>
+    <string name="MENU">MENU</string>
+    <string name="diaz_de_la_semana">DIAZ DE LA SEMANA</string>
+    <string name="colores">colores</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="age">Edad</string>
+    <string name="firstname">Nombre(s)</string>
+    <string name="lastname">Apellido(s)</string>
+    <string name="add_user">Registrar</string>
+    <string name="sing_in">acceder</string>
+    <string name="cancel">Cancelar</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo_actividad_detalle">Actividad De Detalle</string>
+    <string name="nombre_transicion_imagen">imagen_compartida</string>
+    <string name="animales">Animales</string>
+    <string name="esfuerzo">Esfuerzo</string>
+    <string name="humildad">Humildad</string>
+    <string name="honestidad">Honestidad</string>
+    <string name="justicia">Justicia</string>
+    <string name="responsabilidad">Responsabilidad</string>
+    <string name="dialogo">Dialogo</string>
+    <string name="generosidad">Generosidad</string>
+    <string name="libertad">Libertad</string>
+    <string name="respeto">Respeto</string>
+    <string name="volver_a_jugar">Volver A jugar</string>
+    <string name="operacion">Operacion</string>
+    <string name="valores">Valores</string>
+    <string name="musica">Musica</string>
+    <string name="habitos_de_higiene">Habitos de higiene</string>
+    <string name="etapas_de_crecimiento">Etapas de crecimiento</string>
+    <string name="acompleta_palabras">Acompleta palabras</string>
+
+    <string name="cortate_las_u_as">Cortate las Uñas</string>
+    <string name="lavate_los_dientes">Lavate los Dientes</string>
+    <string name="lavate_las_manos">Lavate las Manos</string>
+    <string name="ba_ate">Bañate</string>
+    <string name="peinate">Peinate</string>
+    <string name="cambiate_de_ropa">Cambiate de Ropa</string>
+    <string name="jugar">Jugar</string>
+    <string name="settings">settings</string>
+    <string name="coloress">Colores</string>
+    <string name="acerca_de">Acerca de</string>
+
+
+</resources>

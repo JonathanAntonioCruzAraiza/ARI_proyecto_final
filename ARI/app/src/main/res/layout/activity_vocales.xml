@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/act"
+    tools:context="mx.edu.utng.menu.MenuActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ib_a"
+                    android:layout_width="126dp"
+                    android:layout_height="124dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_size"
+                    android:src="@drawable/a1"
+                    />
+
+                <ImageButton
+                    android:id="@+id/ib_e"
+                    android:layout_width="127dp"
+                    android:layout_height="129dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_size"
+                    android:src="@drawable/e1"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageButton
+                    android:layout_width="127dp"
+                    android:layout_height="122dp"
+                    android:id="@+id/ib_i"
+                    android:layout_gravity="center"
+                    android:src="@drawable/i1"
+                    android:layout_margin="@dimen/margin_size"
+                    />
+
+                <ImageButton
+                    android:id="@+id/ib_o"
+                    android:layout_width="121dp"
+                    android:layout_height="128dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_size"
+                    android:src="@drawable/o1"
+                    android:layout_weight="0.10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/ib_u"
+                    android:layout_width="118dp"
+                    android:layout_height="117dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_size"
+                    android:src="@drawable/u1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

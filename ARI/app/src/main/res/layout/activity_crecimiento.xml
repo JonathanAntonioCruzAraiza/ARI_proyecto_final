@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/valores_fomdo"
+    android:orientation="horizontal"
+    tools:context=".Crecimiento">
+
+    <ScrollView
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:scrollbars="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/iv_infancia"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:src="@drawable/infancia" />
+
+            <ImageView
+                android:id="@+id/iv_nines"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/nines" />
+
+            <ImageView
+                android:id="@+id/iv_adolescencia"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/adolescencia" />
+
+            <ImageView
+                android:id="@+id/iv_adultez"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.05"
+                android:src="@drawable/adultez" />
+
+            <ImageView
+                android:id="@+id/iv_vejez"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/vejez" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/bt_volver_jugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:background="@color/darkPrimaryColor"
+        android:text="Volver a Jugar" />
+
+    <ScrollView
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_targert_adolescencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="1dp">
+
+                <Button
+                    android:id="@+id/bt_targert_adolescencia"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:background="@color/darkPrimaryColor"
+                    android:text="@string/adolescencia" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_targert_nines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="1dp">
+
+                <Button
+                    android:id="@+id/bt_targert_nines"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorAccent"
+                    android:text="@string/ni_ez" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_targert_infancia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="1dp">
+
+                <Button
+                    android:id="@+id/bt_targert_infancia"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:background="#FE36"
+                    android:text="@string/infancia" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_targert_adultez"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="1dp">
+
+                <Button
+                    android:id="@+id/bt_targert_adultez"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:background="@color/android_darkgreen"
+                    android:text="@string/adulto" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_targert_vejez"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="1dp">
+
+                <Button
+                    android:id="@+id/bt_targert_vejez"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:background="@color/android_red"
+                    android:text="Viejo" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

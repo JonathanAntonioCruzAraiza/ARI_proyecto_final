@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@color/colorFondo"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="casual" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="226dp"
+                android:gravity="center"
+                android:layout_height="48dp">
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ARI PARA ANDROID"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="casual"
+                    android:id="@+id/tv_titulo" />
+            </LinearLayout>
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="ARI para Android es una aplicación donde los niños podrán practicar conocimientos aprendidos en clase."
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:fontFamily="monospace"
+                            android:id="@+id/tv_des" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="casual" />
+
+            <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="226dp"
+            android:layout_height="48dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="AUTORES:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:id="@+id/tv_autores" />
+        </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cruz Araiza Jonathan Antonio
+Hernández Venegas José Zenaido
+López García Jorge Luis"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:id="@+id/tv_nombre" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="casual" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="226dp"
+            android:gravity="center"
+            android:layout_height="48dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="ASESOR:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:id="@+id/tv_asesor" />
+        </LinearLayout>
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ing.: Anastasio Rodríguez García"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:id="@+id/tv_nombre_asesor" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="casual" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="226dp"
+            android:gravity="center"
+            android:layout_height="48dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="LIBRERIRAS:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:id="@+id/tv_autores_others" />
+        </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algunos complementos de ARI utilizan bibliotecas, imágenes externas que hacen un uso extensivo del código de la siguiente persona o empresa:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:id="@+id/tv_nombre_ARI" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="casual" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="48dp"
+            android:layout_weight="0.12">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:text="ICONOS DISEÑADOS POR:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="casual" />
+            </LinearLayout>
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="http://www.flaticon.es/autores/vectors-market, Vectors Market, desde http://www.flaticon.com, licencia http://creativecommons.org/licenses/by/3.0/"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
